@@ -1,0 +1,35 @@
+h2{
+    color: chocolate;
+}
+span{
+    color: chocolate;
+}
+.carts{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.cart{
+    width: 400px;
+    height: 550px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    overflow: hidden;
+}
+img{
+    background-size: cover;
+    width: 100%;
+    height: 40%;
+    border-radius: 25px;
+}
+@media (min-width:0px) and (max-width:375px) {
+    .carts{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    h2,span,h1{
+        text-align: center;
+    }
+}
